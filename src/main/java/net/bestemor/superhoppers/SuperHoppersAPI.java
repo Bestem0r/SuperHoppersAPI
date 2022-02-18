@@ -5,12 +5,12 @@
 
 package net.bestemor.superhoppers;
 
-public class SuperHopperAPI {
+public class SuperHoppersAPI {
 
     private static HopperManager hopperManager;
 
     protected static void setHopperManager(HopperManager hopperManager) {
-        SuperHopperAPI.hopperManager = hopperManager;
+        SuperHoppersAPI.hopperManager = hopperManager;
     }
 
     public static HopperManager getHopperManager() {
